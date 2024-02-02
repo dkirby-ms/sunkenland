@@ -10,7 +10,7 @@ on:
     - cron: '18 0 * * *'
   push:
     branches: [ "master" ]
-    paths: [ "sunkenland/Dockerfile" ]
+    paths: [ "Dockerfile" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
